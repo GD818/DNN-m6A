@@ -7,6 +7,7 @@ A Cross-Species Method for Identifying RNA N6-methyladenosine Sites Based on Dee
 ### Requirements：
 
 ```python3
+pip install pandas
 pip install numpy (1.13.1)
 pip install scipy
 pip install h5py
@@ -17,12 +18,11 @@ pip install matplotlib (2.1.0)
 pip install sklearn (0.19.1)
 pip install keras
 pip install tensorflow
-pip install pandas
 ```
 ### Usage
 To obtain the results of the DNN-m6A model on the example dataset, run the following code.
 #### Step 1: Obtain the datasets.
-The eleven datasets of different tissues from three species can be obtained from the following website: http://lin-group.cn/server.
+The eleven datasets of different tissues from three species can be obtained from the following website: http://lin-group.cn/server/iRNA-m6A/.
 
 #### Step 2: Feature extraction.
 •	binary.py is the implementation of Binary.
@@ -38,6 +38,7 @@ The eleven datasets of different tissues from three species can be obtained from
 •	PSNP.py is the implementation of PSNP.
 
 •	PSDP.py is the implementation of PSDP.
+
 
 #### Step 3: Feature selection.
 
@@ -55,5 +56,6 @@ For the initial feature vector sets, the feature selection methods can be used t
 
 #### Step 4: Construct model.
 
-The ` Classifier ` package stores the H5 files of the final 11 prediction models. 
+The ` Classifier ` package stores the H5 files of the final 11 prediction models.
+
 
