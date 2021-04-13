@@ -7,7 +7,6 @@ A Cross-Species Method for Identifying RNA N6-methyladenosine Sites Based on Dee
 ### Requirements：
 
 ```python3
-pip install pandas
 pip install numpy (1.13.1)
 pip install scipy
 pip install h5py
@@ -18,6 +17,7 @@ pip install matplotlib (2.1.0)
 pip install sklearn (0.19.1)
 pip install keras
 pip install tensorflow
+pip install pandas
 ```
 ### Usage
 To obtain the results of the DNN-m6A model on the example dataset, run the following code.
